@@ -9,5 +9,5 @@ public abstract class Event {
 	
 	public double time;
 		
-	public abstract void Execute(SortedOrder sorted,State state);
+	public abstract void Execute(SequenceOrder order,SimState state);
 }
